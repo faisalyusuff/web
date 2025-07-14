@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Website Saya</title>
+  <meta charset="UTF-8">
+  <title>Katalog Produk</title>
+  <style>
+    .produk { display: flex; flex-wrap: wrap; }
+    .item { width: 200px; margin: 10px; text-align: center; }
+    img { width: 100%; }
+  </style>
 </head>
 <body>
-  <h1>Halo Dunia!</h1>
-  <p>Ini adalah website pertama saya menggunakan GitHub Pages.</p>
+  <h1>Produk Rekomendasi</h1>
+  <div class="produk">
+    <div class="item">
+      <img src="produk/gambar1.jpg" alt="Produk A">
+      <p>Produk A</p>
+      <a href="https://shopee.co.id/produk-a">Lihat</a>
+    </div>
+    <div class="item">
+      <img src="produk/gambar2.jpg" alt="Produk B">
+      <p>Produk B</p>
+      <a href="https://shopee.co.id/produk-b">Lihat</a>
+    </div>
+  </div>
 </body>
 </html>
